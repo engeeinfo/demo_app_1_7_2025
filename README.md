@@ -1,1 +1,1 @@
-/Applications/Android\ Studio.app/Contents/jbr/Contents/Home/bin/keytool -import -alias Bosch_Development_Certificates -keystore /Applications/Android\ Studio.app/Contents/jbr/Contents/Home/lib/security/cacerts -storepass changeit -file $HOME/development/Bosch_Development_Certificates.pem -noprompt
+.
