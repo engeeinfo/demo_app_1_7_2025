@@ -1,1 +1,1 @@
-
+https://bgn.bosch.com/FIRSTspiritWeb/wcms/wcms_so/en/bosch-globalnet/02-organization/energy-and-building-technology-ube/bosch-global-service-solutions/so-services/so-trustcenter-services/so-rb-trustcenter/ssl-certificates/bosch-internal-ssl-certificates/bosch-internal-ssl-certificates.html?cmcall=true&perm_link=wcms_so_-Bosch_Internal_SSL_Certificates_Startpage-EN
