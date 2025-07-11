@@ -6,3 +6,5 @@ sudo /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/jre/bin/keyto
 -file "$HOME/development/Bosch_Development_Certificates.pem" \
 -noprompt
 .
+
+sudo /usr/lib/jvm/java-17-openjdk/bin/keytool
