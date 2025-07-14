@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -12,7 +13,7 @@ class CalculatorApp extends StatelessWidget {
       title: 'Windows Style Calculator',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.light(background: Colors.grey[300]!),
+        colorScheme: ColorScheme.light(surface: Colors.grey[300]!),
         textTheme: const TextTheme(bodyMedium: TextStyle(fontSize: 18)),
       ),
       home: const CalculatorPage(),
