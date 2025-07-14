@@ -186,7 +186,6 @@ class _SettingsPagesState extends State<SettingsPages> {
                             context: context,
                             builder: (context) {
                               return AlertDialog(
-                                
                                 title: Text('Alert Title'),
                                 content: Text('hello'),
                                 actions: [
