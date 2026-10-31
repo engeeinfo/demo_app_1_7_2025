@@ -64,7 +64,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
   }
 
   bool _handleKey(KeyEvent event) {
-    if (event is KeyDownEvent && !event.repeat) {
+    if (event is KeyDownEvent) {
       final key = event.logicalKey;
       if (key == LogicalKeyboardKey.enter) {
         onButtonClick('=');
@@ -76,8 +76,9 @@ class _CalculatorPageState extends State<CalculatorPage> {
           onButtonClick(label);
         }
       }
-      return false;
     }
+
+      return false;
   }
 
   void onButtonClick(String value) {
