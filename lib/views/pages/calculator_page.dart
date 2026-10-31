@@ -54,17 +54,17 @@ class _CalculatorPageState extends State<CalculatorPage> {
   @override
   void initState() {
     super.initState();
-    RawKeyboard.instance.addListener(_handleKey);
+    HardwareKeyboard.instance.addHandler(_handleKey);
   }
 
   @override
   void dispose() {
-    RawKeyboard.instance.removeListener(_handleKey);
+    HardwareKeyboard.instance.removeHandler(_handleKey);
     super.dispose();
   }
 
-  void _handleKey(RawKeyEvent event) {
-    if (event is RawKeyDownEvent && !event.repeat) {
+  bool _handleKey(KeyEvent event) {
+    if (event is KeyDownEvent && !event.repeat) {
       final key = event.logicalKey;
       if (key == LogicalKeyboardKey.enter) {
         onButtonClick('=');
@@ -76,6 +76,7 @@ class _CalculatorPageState extends State<CalculatorPage> {
           onButtonClick(label);
         }
       }
+      return false;
     }
   }
 
